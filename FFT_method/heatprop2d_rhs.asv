@@ -1,0 +1,11 @@
+function rhs=heatprop2d_rhs(t,Tt,dummy, Alpha_reshaped, KXY, Nx, Ny, Source_fft)
+    
+    if (t<10)
+%         Source_fft_function = reshape(fft2(ifft2(reshape(Source_fft,Ny,Nx)).*sin(t)),Nx*Ny,1);
+        rhs = -Alpha_reshaped.*KXY.*Tt + Source_fft;
+    else
+        % Without source solution
+        rhs =  -Alpha_reshaped*KXY.*Tt;
+    end
+%     
+%     rhs =  -Alpha_reshaped*KXY.*Tt;
