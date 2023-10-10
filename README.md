@@ -1,2 +1,2 @@
 # 5LMA0_ModRed
-5LMA0 - Model Reduction course in TU Eindhoven for 2022/2023
+This is the 5LMA0 - Model Reduction course's final project in TU Eindhoven for 2022/2023 academic year. In this project, we had to implement a spectral projection method (also known as PCA or Principal Component Analysis) towards the 2-dimensional heat-propagation equation using the Fouriér method. Furthermore, we managed to make it with Chebyshev method, although it is not written in the report. [The report](Model_Reduction-report.pdf) itself also signifies several mathematical derivations of how the equation works and the actual questions are also detailed in both [Project Description](Project_Description.pdf) and [Project_Exercise](Project_Exercise.pdf) files. 
